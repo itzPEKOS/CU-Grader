@@ -1,0 +1,1 @@
+{"name":"Local: Eyeball","url":"/Users/pai/code/CU Grader/Eyeball.cpp","tests":[{"id":1723087640433,"input":"50 50 5 1 100 50","output":"54 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/pai/code/CU Grader/Eyeball.cpp","group":"local","local":true}

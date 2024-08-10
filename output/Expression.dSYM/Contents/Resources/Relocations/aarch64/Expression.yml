@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/output/Expression'
+relocations:
+  - { offsetInCU: 0x16D53, offset: 0x16D53, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64BB8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16FF0, offset: 0x16FF0, size: 0x8, addend: 0x0, symName: __ZSt3powIiiEN9__gnu_cxx11__promote_2IDTplcvNS1_IT_XsrSt12__is_integerIS2_E7__valueEE6__typeELi0EcvNS1_IT0_XsrS3_IS7_E7__valueEE6__typeELi0EEXsrS3_ISB_E7__valueEE6__typeES2_S7_, symObjAddr: 0x12C, symBinAddr: 0x100003DA4, symSize: 0x3C }
+  - { offsetInCU: 0x1704F, offset: 0x1704F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C, symBinAddr: 0x100003CA4, symSize: 0x100 }
+  - { offsetInCU: 0x170B4, offset: 0x170B4, size: 0x8, addend: 0x0, symName: __ZSt4sqrtIiEN9__gnu_cxx11__enable_ifIXsrSt12__is_integerIT_E7__valueEdE6__typeES3_, symObjAddr: 0x0, symBinAddr: 0x100003C78, symSize: 0x2C }
+...

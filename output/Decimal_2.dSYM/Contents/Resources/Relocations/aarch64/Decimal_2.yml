@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/output/Decimal_2'
+relocations:
+  - { offsetInCU: 0x16D1D, offset: 0x16D1D, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64FF8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16FBA, offset: 0x16FBA, size: 0x8, addend: 0x0, symName: __ZSt3powIilEN9__gnu_cxx11__promote_2IDTplcvNS1_IT_XsrSt12__is_integerIS2_E7__valueEE6__typeELi0EcvNS1_IT0_XsrS3_IS7_E7__valueEE6__typeELi0EEXsrS3_ISB_E7__valueEE6__typeES2_S7_, symObjAddr: 0x298, symBinAddr: 0x100003D7C, symSize: 0x3C }
+  - { offsetInCU: 0x17019, offset: 0x17019, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA8, symBinAddr: 0x100003B8C, symSize: 0x1F0 }
+  - { offsetInCU: 0x170D7, offset: 0x170D7, size: 0x8, addend: 0x0, symName: __Z3cntl, symObjAddr: 0x54, symBinAddr: 0x100003B38, symSize: 0x54 }
+  - { offsetInCU: 0x17119, offset: 0x17119, size: 0x8, addend: 0x0, symName: __Z3gcdll, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x54 }
+...

@@ -2,6 +2,15 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/pai/code/CU Grader/output/test'
 relocations:
-  - { offsetInCU: 0x16CD0, offset: 0x16CD0, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64590, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0x16F75, offset: 0x16F75, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E54, symSize: 0x44 }
+  - { offsetInCU: 0x16FFD, offset: 0x16FFD, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x66C38, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x172F3, offset: 0x172F3, size: 0x8, addend: 0x0, symName: __ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag, symObjAddr: 0x2B8, symBinAddr: 0x1000039D8, symSize: 0x100 }
+  - { offsetInCU: 0x17468, offset: 0x17468, size: 0x8, addend: 0x0, symName: __ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_, symObjAddr: 0x260, symBinAddr: 0x100003980, symSize: 0x24 }
+  - { offsetInCU: 0x17498, offset: 0x17498, size: 0x8, addend: 0x0, symName: __ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev, symObjAddr: 0x284, symBinAddr: 0x1000039A4, symSize: 0x34 }
+  - { offsetInCU: 0x1753F, offset: 0x1753F, size: 0x8, addend: 0x0, symName: __ZNSt15__new_allocatorIcED2Ev, symObjAddr: 0x24C, symBinAddr: 0x10000396C, symSize: 0x14 }
+  - { offsetInCU: 0x17588, offset: 0x17588, size: 0x8, addend: 0x0, symName: __ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_, symObjAddr: 0x21C, symBinAddr: 0x10000393C, symSize: 0x30 }
+  - { offsetInCU: 0x1764C, offset: 0x1764C, size: 0x8, addend: 0x0, symName: __ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_, symObjAddr: 0x180, symBinAddr: 0x1000038A0, symSize: 0x9C }
+  - { offsetInCU: 0x17710, offset: 0x17710, size: 0x8, addend: 0x0, symName: __ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev, symObjAddr: 0x154, symBinAddr: 0x100003874, symSize: 0x2C }
+  - { offsetInCU: 0x17711, offset: 0x17711, size: 0x8, addend: 0x0, symName: __ZN9__gnu_cxx11char_traitsIcE6lengthEPKc, symObjAddr: 0xFC, symBinAddr: 0x10000381C, symSize: 0x58 }
+  - { offsetInCU: 0x17750, offset: 0x17750, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3C, symBinAddr: 0x10000375C, symSize: 0xC0 }
+  - { offsetInCU: 0x177FA, offset: 0x177FA, size: 0x8, addend: 0x0, symName: __ZNSt11char_traitsIcE6lengthEPKc, symObjAddr: 0x0, symBinAddr: 0x100003720, symSize: 0x3C }
 ...

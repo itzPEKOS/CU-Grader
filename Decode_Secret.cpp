@@ -12,20 +12,15 @@ int main() {
 
     string sec;
     while(getline(cin,sec)) {
-        int spe = 0, f = 1;
-        char chk;
+        stack<char> st;
+        int spe = 0;
+        char chk = sec[sec.length()-1];
         for(int i = 0; sec[i] != '\0'; i++) {
-            if((sec[i] >= 'a' && sec[i] <= 'z') || (sec[i] >= 'A' && sec[i] <= 'Z') || sec[i] == ' ') {
+            if(sec[i] == chk) {
+                spe++;
+            } else {
                 if(spe%2 == 1) {
                     cout << sec[i];
-                }
-            } else {
-                if(f) {
-                    f = 0;
-                    chk = sec[i];
-                }
-                if(sec[i] == chk) {
-                    spe++;
                 }
             }
         }

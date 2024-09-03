@@ -19,8 +19,8 @@ set<int> U(set<int> now) {
 
 set<int> I(set<int> now) {
     set<int> tmp;
-    for(auto it : in) {
-        if(now.find(it) != in.end()) {
+    for(auto it : now) {
+        if(in.find(it) != in.end()) {
             tmp.insert(it);
         }
     }
@@ -28,42 +28,47 @@ set<int> I(set<int> now) {
 }
 
 set<int> D(set<int> now) {
-    set<int> tmp = dif;
+    set<int> tmp;
     for(auto it : dif) {
-        if(now.find(it) == dif.end()) {
+        if(now.find(it) == now.end()) {
             tmp.insert(it);
         }
     }
+    return tmp;
 }
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
 
-    string num;
+    string line;
     int chk = 1;
-    while(getline(cin,num)) {
+    while(getline(cin,line)) {
         string n = "";
         set<int> now;
-        for(int i = 0; num[i] != '\0'; i++) {
-            if(num[i] == ' ') {
+        for(int i = 0; line[i] != '\0'; i++) {
+            if(line[i] == ' ') {
+                int num = stoi(n);
                 if(chk) {
-                    un.insert(stoi(n));
-                    in.insert(stoi(n));
-                    dif.insert(stoi(n));
+                    un.insert(num);
+                    in.insert(num);
+                    dif.insert(num);
                 } else {
-                    now.insert(stoi(n));
+                    now.insert(num);
                 }
-                num = "";
+                n = "";
             } else {
-                n += num[i];
+                n += line[i];
             }
         }
-        if(chk) {
-            un.insert(stoi(n));
-            in.insert(stoi(n));
-            dif.insert(stoi(n));
-        } else {
-            now.insert(stoi(n));
+        if(!n.empty()) {
+            int num = stoi(n);
+            if(chk) {
+                un.insert(num);
+                in.insert(num);
+                dif.insert(num);
+            } else {
+                now.insert(num);
+            }
         }
         if(!chk) {
             un = U(now);
@@ -71,6 +76,30 @@ int main() {
             dif = D(now);
         }
         chk = 0;
+    }
+    cout << "U:";
+    if(un.size() <= 0) {
+        cout << " empty set";
+    } else {
+        for(auto it : un) {
+            cout << " " << it;
+        }
+    }
+    cout << "\nI:";
+    if(in.size() <= 0) {
+        cout << " empty set";
+    } else {
+        for(auto it : in) {
+            cout << " " << it;
+        }
+    }
+    cout << "\nD:";
+    if(dif.size() <= 0) {
+        cout << " empty set";
+    } else {
+        for(auto it : dif) {
+            cout << " " << it;
+        }
     }
 
     return 0;

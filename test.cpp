@@ -10,10 +10,8 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
 
-    int arr[10] = {0};
-    for(int i = 0; i < 10; i++) {
-        cout << arr[i] << ' ';
-    }
+    map<char,string> mp = {{'1',"23"}};
+    cout << mp['1'] << " " << mp['2'];
     
 
     return 0;

@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/output/Rain_Water'
+relocations:
+  - { offsetInCU: 0x16D1F, offset: 0x16D1F, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64E38, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16FBC, offset: 0x16FBC, size: 0x8, addend: 0x0, symName: __ZSt3minIiERKT_S2_S2_, symObjAddr: 0x468, symBinAddr: 0x100003DDC, symSize: 0x38 }
+  - { offsetInCU: 0x16FFB, offset: 0x16FFB, size: 0x8, addend: 0x0, symName: __ZSt3maxIiERKT_S2_S2_, symObjAddr: 0x430, symBinAddr: 0x100003DA4, symSize: 0x38 }
+  - { offsetInCU: 0x17044, offset: 0x17044, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003974, symSize: 0x430 }
+...

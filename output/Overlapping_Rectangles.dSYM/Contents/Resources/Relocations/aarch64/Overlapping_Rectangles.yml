@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/output/Overlapping_Rectangles'
+relocations:
+  - { offsetInCU: 0x16D1F, offset: 0x16D1F, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65258, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16FBC, offset: 0x16FBC, size: 0x8, addend: 0x0, symName: __ZSt3maxIiERKT_S2_S2_, symObjAddr: 0x418, symBinAddr: 0x100003D44, symSize: 0x38 }
+  - { offsetInCU: 0x16FFD, offset: 0x16FFD, size: 0x8, addend: 0x0, symName: __ZSt3minIiERKT_S2_S2_, symObjAddr: 0x3E0, symBinAddr: 0x100003D0C, symSize: 0x38 }
+  - { offsetInCU: 0x17044, offset: 0x17044, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xCC, symBinAddr: 0x1000039F8, symSize: 0x314 }
+  - { offsetInCU: 0x171C0, offset: 0x171C0, size: 0x8, addend: 0x0, symName: __Z7ol_areaPiS_, symObjAddr: 0x0, symBinAddr: 0x10000392C, symSize: 0xCC }
+...

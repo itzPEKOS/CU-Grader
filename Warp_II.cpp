@@ -8,8 +8,9 @@
 using namespace std;
 
 vector<int> adj[10001];
+vector<vector<int>> e;
 stack<int> s;
-bool chk = false;
+bool chk = false, visited[10001] = {false};
 int st, ed;
 
 void print_stack(vector<int> stack) {
@@ -25,19 +26,35 @@ void print_stack(vector<int> stack) {
     cout << '\n';
 }
 
+bool is_exit(vector<int> v) {
+    for(auto it : e) {
+        if(v == it) {
+            return true;
+        }
+    }
+    return false;
+}
+
 void dfs(int n,vector<int> stack) {
     stack.push_back(n);
+    visited[n] = true;
+    
     if(n == ed) {
-        print_stack(stack);
-        chk = true;
-        return;
+        if(!is_exit(stack)) {
+            e.push_back(stack);
+            print_stack(stack);
+            chk = true;
+        }
+    } else {
+        sort(adj[n].begin(), adj[n].end());
+
+        for(auto it : adj[n]) {
+            if(!visited[it])
+                dfs(it,stack);
+        }
     }
 
-    sort(adj[n].begin(), adj[n].end());
-
-    for(auto it : adj[n]) {
-        dfs(it,stack);
-    }
+    visited[n] = false;
     stack.pop_back();
 }
 

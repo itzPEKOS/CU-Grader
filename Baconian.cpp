@@ -32,7 +32,7 @@ void E(string str,string c) {
         b += c[i];
         b = Bac[b];
         for(int k = 0; k < 4; k++) {
-            if(!(str[j%l] >= 'A' && str[j%l] <= 'Z')) {
+            while(!(str[j%l] >= 'A' && str[j%l] <= 'Z')) {
                 cout << str[j%l];
                 j++;
             }

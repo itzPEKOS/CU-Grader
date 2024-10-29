@@ -3,7 +3,14 @@
 
 template <typename T>
 void CP::vector<T>::compress() {
-    //write your code here
+    T *new_array = new T[mSize];
+    for(size_t i = 0; i < mSize; i++) {
+        new_array[i] = mData[i];
+    }
+
+    delete[] mData;
+    mData = new_array;
+    mCap = mSize;
 }
 
 #endif

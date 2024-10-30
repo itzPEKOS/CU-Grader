@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/package_vector_block_swap/output/main'
+relocations:
+  - { offsetInCU: 0x5155, offset: 0x5155, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x17E68, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x56DD, offset: 0x56DD, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE6expandEm, symObjAddr: 0x5FC, symBinAddr: 0x100003A0C, symSize: 0xF0 }
+  - { offsetInCU: 0x5744, offset: 0x5744, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE14ensureCapacityEm, symObjAddr: 0x5A0, symBinAddr: 0x1000039B0, symSize: 0x5C }
+  - { offsetInCU: 0x579C, offset: 0x579C, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE6insertEPiRKi, symObjAddr: 0x490, symBinAddr: 0x1000038A0, symSize: 0x110 }
+  - { offsetInCU: 0x5812, offset: 0x5812, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE3endEv, symObjAddr: 0x460, symBinAddr: 0x100003870, symSize: 0x30 }
+  - { offsetInCU: 0x583A, offset: 0x583A, size: 0x8, addend: 0x0, symName: __ZNK2CP6vectorIiE4sizeEv, symObjAddr: 0x448, symBinAddr: 0x100003858, symSize: 0x18 }
+  - { offsetInCU: 0x5862, offset: 0x5862, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE10block_swapEPiS2_m, symObjAddr: 0x3A4, symBinAddr: 0x1000037B4, symSize: 0xA4 }
+  - { offsetInCU: 0x58C6, offset: 0x58C6, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE5beginEv, symObjAddr: 0x38C, symBinAddr: 0x10000379C, symSize: 0x18 }
+  - { offsetInCU: 0x58EE, offset: 0x58EE, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiE9push_backERKi, symObjAddr: 0x344, symBinAddr: 0x100003754, symSize: 0x48 }
+  - { offsetInCU: 0x5957, offset: 0x5957, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiED1Ev, symObjAddr: 0x310, symBinAddr: 0x100003720, symSize: 0x34 }
+  - { offsetInCU: 0x59A1, offset: 0x59A1, size: 0x8, addend: 0x0, symName: __ZN2CP6vectorIiEC1Ev, symObjAddr: 0x254, symBinAddr: 0x100003664, symSize: 0xBC }
+  - { offsetInCU: 0x59E2, offset: 0x59E2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003410, symSize: 0x254 }
+...

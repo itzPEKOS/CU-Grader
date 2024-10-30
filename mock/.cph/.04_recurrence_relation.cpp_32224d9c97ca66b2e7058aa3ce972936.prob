@@ -1,0 +1,1 @@
+{"name":"Local: 04_recurrence_relation","url":"c:\\Code\\CU-Grader\\mock\\04_recurrence_relation.cpp","tests":[{"id":1730284904954,"input":"S 6 2\nB 4\nT 5 3","output":"S(6, 2) = 31\nB(4) = 15\nT(5, 3) = 3363\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Code\\CU-Grader\\mock\\04_recurrence_relation.cpp","group":"local","local":true}

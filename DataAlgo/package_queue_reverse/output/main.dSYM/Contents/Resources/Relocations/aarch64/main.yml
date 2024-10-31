@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/package_queue_reverse/output/main'
+relocations:
+  - { offsetInCU: 0x537A, offset: 0x537A, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x181D0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5806, offset: 0x5806, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE6expandEm, symObjAddr: 0x618, symBinAddr: 0x100003900, symSize: 0x118 }
+  - { offsetInCU: 0x5869, offset: 0x5869, size: 0x8, addend: 0x0, symName: __ZSt4swapIiENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS4_ESt18is_move_assignableIS4_EEE5valueEvE4typeERS4_SE_, symObjAddr: 0x5C4, symBinAddr: 0x1000038AC, symSize: 0x54 }
+  - { offsetInCU: 0x58BD, offset: 0x58BD, size: 0x8, addend: 0x0, symName: __ZSt4moveIRiEONSt16remove_referenceIT_E4typeEOS2_, symObjAddr: 0x5B0, symBinAddr: 0x100003898, symSize: 0x14 }
+  - { offsetInCU: 0x58F1, offset: 0x58F1, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE14ensureCapacityEm, symObjAddr: 0x554, symBinAddr: 0x10000383C, symSize: 0x5C }
+  - { offsetInCU: 0x5949, offset: 0x5949, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE3popEv, symObjAddr: 0x490, symBinAddr: 0x100003778, symSize: 0xC4 }
+  - { offsetInCU: 0x5971, offset: 0x5971, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE5frontEv, symObjAddr: 0x3F0, symBinAddr: 0x1000036D8, symSize: 0xA0 }
+  - { offsetInCU: 0x5999, offset: 0x5999, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE5emptyEv, symObjAddr: 0x3CC, symBinAddr: 0x1000036B4, symSize: 0x24 }
+  - { offsetInCU: 0x59D8, offset: 0x59D8, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE4sizeEv, symObjAddr: 0x3B4, symBinAddr: 0x10000369C, symSize: 0x18 }
+  - { offsetInCU: 0x5A00, offset: 0x5A00, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE7reverseEii, symObjAddr: 0x2CC, symBinAddr: 0x1000035B4, symSize: 0xE8 }
+  - { offsetInCU: 0x5A67, offset: 0x5A67, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE4pushERKi, symObjAddr: 0x240, symBinAddr: 0x100003528, symSize: 0x8C }
+  - { offsetInCU: 0x5ACF, offset: 0x5ACF, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiED1Ev, symObjAddr: 0x20C, symBinAddr: 0x1000034F4, symSize: 0x34 }
+  - { offsetInCU: 0x5B19, offset: 0x5B19, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiEC1Ev, symObjAddr: 0x180, symBinAddr: 0x100003468, symSize: 0x8C }
+  - { offsetInCU: 0x5B5B, offset: 0x5B5B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000032E8, symSize: 0x180 }
+...

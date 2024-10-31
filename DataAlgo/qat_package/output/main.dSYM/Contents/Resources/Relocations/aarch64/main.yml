@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/qat_package/output/main'
+relocations:
+  - { offsetInCU: 0x513D, offset: 0x513D, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x17E98, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x549E, offset: 0x549E, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE6expandEm, symObjAddr: 0x790, symBinAddr: 0x1000038AC, symSize: 0x118 }
+  - { offsetInCU: 0x5505, offset: 0x5505, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE5frontEv, symObjAddr: 0x6F0, symBinAddr: 0x10000380C, symSize: 0xA0 }
+  - { offsetInCU: 0x552D, offset: 0x552D, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE5emptyEv, symObjAddr: 0x6CC, symBinAddr: 0x1000037E8, symSize: 0x24 }
+  - { offsetInCU: 0x559B, offset: 0x559B, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiEC1ERKS1_, symObjAddr: 0x5CC, symBinAddr: 0x1000036E8, symSize: 0x100 }
+  - { offsetInCU: 0x55DC, offset: 0x55DC, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE4sizeEv, symObjAddr: 0x5B4, symBinAddr: 0x1000036D0, symSize: 0x18 }
+  - { offsetInCU: 0x5604, offset: 0x5604, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE14ensureCapacityEm, symObjAddr: 0x558, symBinAddr: 0x100003674, symSize: 0x5C }
+  - { offsetInCU: 0x565C, offset: 0x565C, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE5printEv, symObjAddr: 0x45C, symBinAddr: 0x100003578, symSize: 0xFC }
+  - { offsetInCU: 0x56B4, offset: 0x56B4, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiEixEi, symObjAddr: 0x3BC, symBinAddr: 0x1000034D8, symSize: 0xA0 }
+  - { offsetInCU: 0x56EB, offset: 0x56EB, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE3popEv, symObjAddr: 0x2F8, symBinAddr: 0x100003414, symSize: 0xC4 }
+  - { offsetInCU: 0x5713, offset: 0x5713, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE4pushERKi, symObjAddr: 0x26C, symBinAddr: 0x100003388, symSize: 0x8C }
+  - { offsetInCU: 0x577B, offset: 0x577B, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiED1Ev, symObjAddr: 0x238, symBinAddr: 0x100003354, symSize: 0x34 }
+  - { offsetInCU: 0x57C5, offset: 0x57C5, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiEC1Ev, symObjAddr: 0x1AC, symBinAddr: 0x1000032C8, symSize: 0x8C }
+  - { offsetInCU: 0x5807, offset: 0x5807, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000311C, symSize: 0x1AC }
+...

@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/package_deep_push/output/main'
+relocations:
+  - { offsetInCU: 0x5149, offset: 0x5149, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x172C0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x548A, offset: 0x548A, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE6expandEm, symObjAddr: 0x520, symBinAddr: 0x100003A04, symSize: 0xF0 }
+  - { offsetInCU: 0x54F1, offset: 0x54F1, size: 0x8, addend: 0x0, symName: __ZNK2CP5stackIiE4sizeEv, symObjAddr: 0x508, symBinAddr: 0x1000039EC, symSize: 0x18 }
+  - { offsetInCU: 0x5519, offset: 0x5519, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE14ensureCapacityEm, symObjAddr: 0x4AC, symBinAddr: 0x100003990, symSize: 0x5C }
+  - { offsetInCU: 0x5571, offset: 0x5571, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE9deep_pushEmRKi, symObjAddr: 0x374, symBinAddr: 0x100003858, symSize: 0x138 }
+  - { offsetInCU: 0x55EA, offset: 0x55EA, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE5printEv, symObjAddr: 0x2E4, symBinAddr: 0x1000037C8, symSize: 0x90 }
+  - { offsetInCU: 0x5633, offset: 0x5633, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE3popEv, symObjAddr: 0x248, symBinAddr: 0x10000372C, symSize: 0x9C }
+  - { offsetInCU: 0x565B, offset: 0x565B, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiE4pushERKi, symObjAddr: 0x1DC, symBinAddr: 0x1000036C0, symSize: 0x6C }
+  - { offsetInCU: 0x56C3, offset: 0x56C3, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiED1Ev, symObjAddr: 0x1A8, symBinAddr: 0x10000368C, symSize: 0x34 }
+  - { offsetInCU: 0x570D, offset: 0x570D, size: 0x8, addend: 0x0, symName: __ZN2CP5stackIiEC1Ev, symObjAddr: 0x124, symBinAddr: 0x100003608, symSize: 0x84 }
+  - { offsetInCU: 0x574F, offset: 0x574F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000034E4, symSize: 0x124 }
+...

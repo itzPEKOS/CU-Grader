@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/move_to_front/output/main'
+relocations:
+  - { offsetInCU: 0x5149, offset: 0x5149, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x17C78, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5551, offset: 0x5551, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE6expandEm, symObjAddr: 0x5E0, symBinAddr: 0x1000039EC, symSize: 0x118 }
+  - { offsetInCU: 0x55B8, offset: 0x55B8, size: 0x8, addend: 0x0, symName: __ZNK2CP5queueIiE4sizeEv, symObjAddr: 0x5C8, symBinAddr: 0x1000039D4, symSize: 0x18 }
+  - { offsetInCU: 0x55E0, offset: 0x55E0, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE14ensureCapacityEm, symObjAddr: 0x56C, symBinAddr: 0x100003978, symSize: 0x5C }
+  - { offsetInCU: 0x5638, offset: 0x5638, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE13move_to_frontEm, symObjAddr: 0x418, symBinAddr: 0x100003824, symSize: 0x154 }
+  - { offsetInCU: 0x56CF, offset: 0x56CF, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE5printEv, symObjAddr: 0x328, symBinAddr: 0x100003734, symSize: 0xF0 }
+  - { offsetInCU: 0x5718, offset: 0x5718, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE3popEv, symObjAddr: 0x264, symBinAddr: 0x100003670, symSize: 0xC4 }
+  - { offsetInCU: 0x5740, offset: 0x5740, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiE4pushERKi, symObjAddr: 0x1D8, symBinAddr: 0x1000035E4, symSize: 0x8C }
+  - { offsetInCU: 0x57A8, offset: 0x57A8, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiED1Ev, symObjAddr: 0x1A4, symBinAddr: 0x1000035B0, symSize: 0x34 }
+  - { offsetInCU: 0x57F2, offset: 0x57F2, size: 0x8, addend: 0x0, symName: __ZN2CP5queueIiEC1Ev, symObjAddr: 0x118, symBinAddr: 0x100003524, symSize: 0x8C }
+  - { offsetInCU: 0x5834, offset: 0x5834, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000340C, symSize: 0x118 }
+...

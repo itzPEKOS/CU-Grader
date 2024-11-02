@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-map<string,int> p, pcnt;
+map<string,int> p;
 map<pair<string,int>,bool> chk;
+map<pair<string,int>,int> pcnt;
 map<string,int> sc;
 
 int main() {
@@ -16,13 +17,13 @@ int main() {
         pair<string,int> j = {team,a};
         if(tf == 'T') {
             if(!chk[j]) {
-                p[team] += t + pcnt[team];
+                p[team] += t + pcnt[j];
                 sc[team]++;
                 chk[j] = true;
             }
         } else if(tf == 'F') {
             if(!chk[j]) {
-                pcnt[team] += 20;
+                pcnt[j] += 20;
             }
         }
     }

@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/output/ TowerDefense'
+relocations:
+  - { offsetInCU: 0x18F48, offset: 0x18F48, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65228, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x1941F, offset: 0x1941F, size: 0x8, addend: 0x0, symName: __ZNSt4pairIiiEC1IiiLb1EEEv, symObjAddr: 0x460, symBinAddr: 0x100003E1C, symSize: 0x24 }
+  - { offsetInCU: 0x19444, offset: 0x19444, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000039BC, symSize: 0x460 }
+...

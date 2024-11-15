@@ -30,9 +30,9 @@ class CustomPQ1 {
   public:
     bool operator()(const Song& lhs, const Song& rhs) {
       if(lhs.artist == rhs.artist) {
-        return lhs.title > rhs.title;
+        return lhs.title > rhs.title; //น้อยไปมาก
       }
-      return lhs.artist > rhs.artist;
+      return lhs.artist > rhs.artist; //น้อยไปมาก
     }
 };
 
@@ -40,11 +40,11 @@ class CustomPQ2 {
   public:
     bool operator()(const Song& lhs, const Song& rhs) {
       if(lhs.count == rhs.count && lhs.artist == rhs.artist) {
-        return lhs.title > rhs.title;
+        return lhs.title > rhs.title; //น้อยไปมาก
       } else if(lhs.count == rhs.count) {
-        return lhs.artist > rhs.artist;
+        return lhs.artist > rhs.artist; //น้อยไปมาก
       }
-      return lhs.count < rhs.count;
+      return lhs.count < rhs.count; //มากไปน้อย
     }
 };
 

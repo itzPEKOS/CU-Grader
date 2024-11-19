@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pai/code/CU Grader/DataAlgo/output/RecursiveMatrix'
+relocations:
+  - { offsetInCU: 0x16D1A, offset: 0x16D1A, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64C70, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x16E2B, offset: 0x16E2B, size: 0x8, addend: 0x0, symName: _arr, symObjAddr: 0x64C74, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x16FE9, offset: 0x16FE9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12C, symBinAddr: 0x100003D10, symSize: 0x134 }
+  - { offsetInCU: 0x17081, offset: 0x17081, size: 0x8, addend: 0x0, symName: __Z5recuriiii, symObjAddr: 0x0, symBinAddr: 0x100003BE4, symSize: 0x12C }
+...
